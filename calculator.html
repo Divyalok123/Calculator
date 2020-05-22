@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Awesome Calculator</title>
+        <link rel="stylesheet" href="./css/calculator.css" type="text/css">
+    </head>
+    <body>
+        <div id="calculator">
+            <header><h2>Calculator</h2></header>
+            <form>
+                <input id="tocalc" type="text">
+            </form>
+            <table id="table">
+                <tr class="tablerow">
+                    <td><button button-val='clear' class="button">AC</button></td>
+                    <td><button button-val='sign' class="button">+/-</button></td>
+                    <td><button button-val='%' class="button">%</button></td>
+                    <td><button class="last button" button-val='/'>/</button></td>
+                </tr>
+                <tr class="tablerow">
+                    <td><button button-val='7' class="button">7</button></td>
+                    <td><button button-val='8' class="button">8</button></td>
+                    <td><button button-val='9' class="button">9</button></td>
+                    <td><button class="last button" button-val='*'>*</button></td>
+                </tr>
+                <tr class="tablerow">
+                    <td><button button-val='4' class="button">4</button></td>
+                    <td><button button-val='5' class="button">5</button></td>
+                    <td><button button-val='6' class="button">6</button></td>
+                    <td><button class="last button" button-val='-'>-</button></td>
+                </tr>
+                <tr class="tablerow">
+                    <td><button button-val='1' class="button">1</button></td>
+                    <td><button button-val='2' class="button">2</button></td>
+                    <td><button button-val='3' class="button">3</button></td>
+                    <td><button class="last button" button-val='+'>+</button></td>
+                </tr>
+                <tr class="tablerow">
+                    <td colspan="2" button-val='0'><button class="button" style="width: 97%;">0</button></td>
+                    <td><button class="button" button-val='.'>.</button></td>
+                    <td><button class="last button" button-val='='>=</button></td>
+                </tr>
+            </table>
+        </div>
+        <script src="../Calculator/js/calculator.js" text/javascript">
+        </script>
+    </body>
+</html>
+
